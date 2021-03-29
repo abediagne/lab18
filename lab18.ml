@@ -50,10 +50,14 @@ expression `3 + 5` in an empty environment.
 *)
 
 (*....................................................................
-Exercise 2. What is the result of evaluating the following expression
-in the environment {x -> 3}?
+Exercise 2. Determine the result of evaluating the following
+expression in the environment {x -> 3}
 
     (x + 5)
+
+by carrying out the derivation for 
+
+    {x -> 3} ⊢ x + 5 ⇓ ???
 ....................................................................*)
 
 (* ANSWER: Carrying out each step in the derivation:
@@ -84,8 +88,7 @@ expression `let x = 3 in x + 5` in an empty environment.
 
 (* Now it's your turn. We recommend doing these exercises with pencil
 on paper. Alternatively, you might share a Google doc and work on
-developing the solutions there. Call over a staff member for help and
-to check your answers.  *)
+developing the solutions there.  *)
 
 (*....................................................................
 Exercise 4. Carry out the derivation for the semantics of the
